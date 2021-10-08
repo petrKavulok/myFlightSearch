@@ -1,0 +1,43 @@
+.searchForm {
+  margin: 3em auto 0 auto;
+  padding: 0.5em;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(50, 3, 126, 0.103);
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.elemWithLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  margin: 0 1.5em;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.elemWithLabel input {
+  max-width: auto;
+}
+
+.checkbox {
+  margin: 3px 3px 0px 3px;
+}
+
+.submitButton {
+  width: 90px;
+  margin: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
